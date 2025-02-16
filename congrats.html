@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+        h1 {
+            color: #EC6563;
+            text-align: center;
+        }
+        p {
+            font-size: 18px;
+            text-align: center;
+            margin: 10px 0;
+        }
+        .next-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .next-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .bear {
+            position: absolute;
+            width: 150px;
+            height: auto;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+    <img id="bear" class="bear" src="bear3.png" alt="Bear">
+    <h1>🎉 Congratulations, Ethan! 🎉</h1>
+    <p>You have completed Level 1 of Find the Matches game.</p>
+    <p>Please click "Next" to proceed.</p>
+    <button class="next-btn" onclick="nextLevel()">Next</button>
+    
+    <script>
+        function nextLevel() {
+            alert("Proceeding to Level 2!");
+            window.location.href = "level2.html"; 
+        }
+
+        const bear = document.getElementById("bear");
+        const bearImages = ["bear3.png", "bear4.png"];
+        let index = 0;
+    
+        setInterval(() => {
+            index = (index + 1) % bearImages.length;
+            bear.src = bearImages[index];
+        }, 500);
+    </script>
+</body>
+</html>
