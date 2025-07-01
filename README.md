@@ -2,6 +2,8 @@
 
 **CogniPlay** is a project developed for **ElleHacks 2025**, a hackathon focused on creating innovative solutions that combine technology and creativity. The app aims to improve cognitive abilities and bridge early learning gaps for children through interactive games and personalized learning experiences.
 
+🚀 **Live Demo:** [Click here to try the app](https://cogniplay-2025.streamlit.app/)
+
 
 ## Features
 
@@ -20,6 +22,7 @@
 - **Libraries**: Flask, NumPy, Pandas, Streamlit, matpotlib
 - **Version Control**: Git, GitHub
 
+
 ## Installation
 
 To run the project locally, follow these steps:
@@ -27,3 +30,4 @@ To run the project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/cmell05/cogniplay2025.git
+  
