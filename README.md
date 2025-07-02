@@ -2,8 +2,9 @@
 
 **CogniPlay** is a project developed for **ElleHacks 2025**, a hackathon focused on creating innovative solutions that combine technology and creativity. The app aims to improve cognitive abilities and bridge early learning gaps for children through interactive games and personalized learning experiences.
 
-🚀 **Live Demo:** [Click here to try the app](https://cogniplay-2025.streamlit.app/)
-
+🚀 **Live Demos**
+- 🧠 [Click here to view the assessment dashboard](https://cogniplay-2025.streamlit.app/)
+- 🎮 [Click here to view the game simulation](https://cogniplay-games-simulation.streamlit.app/)
 
 ## Features
 
